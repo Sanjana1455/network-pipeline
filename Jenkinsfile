@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 echo "📦 Checking out code from GitHub..."
-                git branch: 'main', url: 'https://github.com/yourname/network-pipeline.git'
+                git branch: 'main', url: 'https://github.com/Sanjana1455/network-pipeline.git'
             }
         }
 
