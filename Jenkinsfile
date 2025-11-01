@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        AWS_REGION = "us-east-1"                  // ✅ Updated region
+        AWS_REGION = "us-east-1"                 
         STACK_NAME = "SimpleNetworkStack"
         AWS_CREDENTIALS = "aws-cred"
     }
